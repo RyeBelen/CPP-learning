@@ -202,46 +202,66 @@ class LinkedList{
         std::cout << " Null\n";
     }
 
+    void displayListReverse(){
+        if(!head){
+            std::cout << "The List is Empty\n";
+            return;
+        }
+
+        // tRAVERSE LIST TILL END
+
+        Node* temp = head;
+        while(temp->next){
+            temp = temp->next;
+        }
+        
+        std::cout << "BackwardList: ";
+        // Print the list starting from end
+        while(temp){
+            std::cout << temp->value << " -> ";
+            temp = temp->previous;
+        }
+
+        std::cout << " NULL\n";
+
+
+    }
+
 };
 
 
 int main(){
-
-
     LinkedList list;
-
-
 
     list.displayList();
     list.AddAtBeginning(10);
     list.displayList();
 
-    // list.AddAtEnd(20);
-    // list.displayList();
+    list.AddAtEnd(20);
+    list.displayList();
 
-    // list.AddAtEnd(30);
-    // list.displayList();
+    list.AddAtEnd(30);
+    list.displayList();
 
-    // list.AddAtEnd(50);
-    // list.displayList();
+    list.AddAtEnd(50);
+    list.displayList();
     
-    // list.AddAtPosition(4, 40);
-    // list.displayList();
+    list.AddAtPosition(4, 40);
+    list.displayList();
     
-    // list.AddAtPosition(6, 1000);
-    // list.displayList();
+    list.AddAtPosition(6, 1000);
+    list.displayList();
         
-    // list.deleteAtBeginning();
-    // list.displayList();
+    list.deleteAtBeginning();
+    list.displayList();
 
-    // list.deleteAtEnd();
-    // list.displayList();
+    list.deleteAtEnd();
+    list.displayList();
     
     list.deleteAtPosition(1);
     list.displayList();
 
-
-
+    list.displayListReverse();
 
     return 0;
 }
