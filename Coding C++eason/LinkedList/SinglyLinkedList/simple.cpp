@@ -72,12 +72,12 @@ void addAtPosition(int position, int data){
     Node* tempNode = head;
 
     // traverse until before desired position
-    for(int i = 1; i < position - 1 && tempNode; i++){
+    for(int i = 1; i < position - 1 && tempNode != nullptr; i++){
         tempNode = tempNode->next;
     }
 
     // check if position chosen is out of range
-    if(!tempNode){
+    if(tempNode == nullptr){
         std::cout << "Position out of range\n";
         return;
     }
