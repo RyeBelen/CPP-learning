@@ -1,0 +1,2 @@
+Hellow, file handling example.
+Writing to a file.
