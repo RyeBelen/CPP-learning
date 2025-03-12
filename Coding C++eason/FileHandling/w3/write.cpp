@@ -13,16 +13,18 @@ int main(){
     //  overwrites the entire file
     ofstream outFile("example.txt"); // create and open a file for writing
 
+
     // variableName << : when writing inside the file
     // cout << : when outputing in the terminal
     if(outFile.is_open()){
-        outFile << "Hellow, file handling example.\n";
-        outFile << "Writing to a file.\n";
-        outFile.close(); // close file
-        cout << "Data written to file successfully!\n";
-    } else{
-        cout << "Erro opening file\n";
+        outFile << "ojaslkdjasiojdokasjd";   
+        outFile.close();
     }
+    else{
+        std::cout << "File is closed\n";
+    }
+    
+
 
     return 0;
 }

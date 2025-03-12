@@ -6,7 +6,7 @@ using namespace std;
 // ofstream = writing files
 // fstream = read/writing files
 
-bool fileExists(const string fileName){
+bool fileExists(string fileName){
     ifstream file(fileName);
     return file.good(); // returns true if file exist
 }
@@ -20,9 +20,6 @@ int main(){
     } else{
         cout << "File DNE.\n";
     }
-
-    
-
 
     return 0;
 }

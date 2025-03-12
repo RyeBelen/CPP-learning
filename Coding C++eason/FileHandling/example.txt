@@ -1,2 +1,1 @@
-Hellow, file handling example.
-Writing to a file.
+bor ta rat bor ratwow

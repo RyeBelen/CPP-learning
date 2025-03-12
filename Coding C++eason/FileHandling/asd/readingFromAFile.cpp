@@ -8,7 +8,11 @@ using namespace std;
 // fstream = read/writing files
 
 // null terminator = signifying the end of a string
- 
+
+
+
+
+
 // getline(from starting -> null terminator)
 // getline(cin, name) 
 //               ['r','y','e',' ','B','e','l','e','n','\0']
