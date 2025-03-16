@@ -23,6 +23,19 @@ class Student{
     }
 };
 
+
+class Book{
+    public:
+        std::string name = " ";
+        int price = 0;
+
+    Book(std::string bookName, int bookPrice){
+        this->name = bookName;
+        this->price = bookPrice;
+    }
+};
+
+
 class Car{
     public:
         std::string make = " ";
@@ -59,5 +72,25 @@ int main(){
     std::cout << car1.model << '\n';
     std::cout << car1.color << '\n';
     std::cout << car1.year << '\n';
+
+
+
+    Book book1("Bold", 69);
+    Book book2("Burat", 420);
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
     return 0;
 }
