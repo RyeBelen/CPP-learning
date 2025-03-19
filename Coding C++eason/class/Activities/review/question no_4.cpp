@@ -1,6 +1,29 @@
 /*Create a class Calculator with
- methods add, subtract, multiply, and divide.
+ methods add, subtract
 */
+
+
+/*
+enter num1 = 10
+enter num2 = 10
+pick + or -
+answer: 0
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #include <iostream>
 using namespace std;

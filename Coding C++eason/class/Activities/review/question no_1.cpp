@@ -2,6 +2,33 @@
 and price. Create an object of 
 the Book class and display its details.
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #include <iostream>
 #include <string>
 using namespace std;

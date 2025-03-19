@@ -2,6 +2,33 @@
 Create a derived class Student with an 
 additional studentId and a method to display all details.*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #include <iostream>
 #include <string>
 using namespace std;

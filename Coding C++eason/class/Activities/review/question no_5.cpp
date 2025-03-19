@@ -5,6 +5,40 @@ attribute subject and a method displayTeacher() that
 displays both person and teacher details.
  Input all values through a method in the derived class.*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  #include <iostream>
  #include <string>
 
